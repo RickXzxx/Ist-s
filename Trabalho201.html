@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTS - Informações e Prevenção</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<style>
+  * {
+
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(to right, #0074D9, #005bb5);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0074D9;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+#infecções {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #02003e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-content h1 {
+        font-size: 2em;
+    }
+
+    .header-content p {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 15px;
+        margin-top: 60px;
+    }
+}
+
+nav {
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(51, 0, 255, 0.192);
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: justify;
+    z-index: 1000;
+}
+
+nav > a {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 195, 255) ;
+}
+</style>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Infecções Sexualmente Transmissíveis</h1>
+            <p>Proteja sua saúde! Conheça os tipos, sintomas e como prevenir as ISTs.</p>
+        </div>
+        <nav>
+            <a href="https://meususdigital.saude.gov.br/login">Site do SUS</a>
+            <a href="https://www.tuasaude.com/medico-responde/">Médico Responde</a>
+            <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/hpv/publicacoes/esquema-vacinal-hpv">Saiba sobre a vacinação da HPV</a>
+        </nav>
+    </header>
+
+    <main>
+        <img src="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/i/ist/ist/@@govbr.institucional.banner/bed9713d-f4d6-411a-ad21-bd804c0850ec/@@images/fafe5483-f36e-4ef9-a509-0017c2147046.png" alt="Imagem ilustrativa sobre ISTs" class="main-image">
+
+        <article>
+            <section>
+                <h2>O que são as ISTs</h2>
+                <p>As ISTs (Infecções Sexualmente Transmissíveis) são causadas por vírus, bactérias ou outros microrganismos. Elas são transmitidas, principalmente, por meio do contato sexual sem o uso de camisinha, com uma pessoa que esteja infectada. Também podem ser transmitidas durante a gestação, parto ou amamentação.</p>
+            </section>
+
+            <section>
+                <h2>Principais Infecções</h2>
+                <ul id="infecções">
+                    <li><a href="https://www.mdsaude.com/doencas-infecciosas/dst/herpes-genital/">Herpes genital;</a></li>
+                    <li><a href="https://www.mdsaude.com/doencas-infecciosas/dst/cancro-mole/">Cancro mole;</a></li>
+                    <li><a href="https://www.mdsaude.com/ginecologia/hpv/">HPV;</a></li>
+                    <li><a href="https://www.tuasaude.com/gonorreia/">Gonorreia;</a></li>
+                    <li><a href="https://www.mdsaude.com/doencas-infecciosas/dst/sifilis/">Sífilis;</a></li>
+                    <li><a href="https://www.mdsaude.com/ginecologia/infeccao-ginecologica/doenca-inflamatoria-pelvica/">Doença Inflamatória Pélvica (DIP);</a></li>
+                    <li><a href="https://www.mdsaude.com/ginecologia/infeccao-ginecologica/doenca-inflamatoria-pelvica/">Donovanose;</a></li>
+                    <li><a href="https://www.mdsaude.com/doencas-infecciosas/dst/clamidia/">
+                    Infecção por Clamídia;</a></li>
+                    <li><a href="https://www.tuasaude.com/linfogranuloma-venereo/">Linfogranuloma venéreo (LGV);</a></li>
+                    <li><a href="https://www.tuasaude.com/htlv/">Infecção pelo HTLV;</a></li>
+                    <li><a href="https://www.mdsaude.com/doencas-infecciosas/dst/tricomoniase-sintomas/">Tricomoníase;</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Sintomas das ISTs</h2>
+                <p>As Infecções Sexualmente Transmissíveis (ISTs) podem apresentar uma ampla gama de sintomas, variando de acordo com o tipo de infecção. Muitas ISTs são assintomáticas no início, o que pode atrasar o diagnóstico. No entanto, quando os sintomas surgem, podem incluir coceira, irritação ou dor na região genital, corrimento anormal (geralmente com odor forte ou cor incomum), bolhas, feridas ou verrugas genitais. Sensação de dor ou ardor ao urinar também é comum em várias ISTs. Algumas infecções podem causar febre, dor no corpo e, em casos mais graves, sintomas sistêmicos, como inflamação pélvica ou infertilidade, se não tratadas.</p>
+            </section>
+
+            <section>
+                <h2>Prevenção</h2>
+                <p>Use camisinha, faça exames regulares e tome vacinas como as para o HPV. Evite o compartilhamento de agulhas para reduzir o risco de infecções transmitidas pelo sangue.</p>
+            </section>
+
+            <h2>Saiba sobre o tratamento</h2>
+            <p id="preventionMessage">O tratamento das pessoas com IST melhora a qualidade de vida e interrompe a cadeia de transmissão dessas infecções. O atendimento, o diagnóstico e o tratamento são gratuitos nos serviços de saúde do SUS. A terminologia Infecções Sexualmente Transmissíveis - IST passou a ser adotada em substituição à expressão Doenças Sexualmente Transmissíveis - DST, porque destaca a possibilidade de uma pessoa ter e transmitir uma infecção, mesmo sem sinais e sintomas. Se não tratadas adequadamente, podem provocar diversas complicações e levar a pessoa, inclusive, à morte. </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado pelos os alunos: Gustavo, Henrique, Juan, Antony, Kauã e Gabriel da Turma 201</p>
+        <p>Professor: Carlos de Projeto de Vida</p>
+    </footer>
+</body>
+
+</html>
